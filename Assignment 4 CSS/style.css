@@ -1,7 +1,10 @@
 .sec1 {
-    width: 100%;
+
+    margin: 2px auto;
+
+    height: 200px;
+    width: 952px;
     border: 2px solid black;
-    height: 228px;
     margin-bottom: 39px;
     overflow: hidden; /* Hide any overflowing content in Section 1 */
 }
@@ -18,21 +21,35 @@ p {
 }
 
 .sec2 {
-
-    width: 100%;
+ 
     border: 3px solid black;
-    overflow: hidden; /* Hide any overflowing content in Section 2*/
-    height: 384px;
-    margin-bottom: 39px;
+    height: 245px;
+
+    /* Center the container horizontally with top and bottom margin */
+    margin: 20px auto;
+    width: 952px;
+    
 }
 
 /* Image 2 inside Section 2 */
-.sec2 .pic2 {
+ .pic2 {
+         
         width: 100%;
-        height: 493px;
-        object-fit: cover; /*Ensure Image 2 covers its container*/
-        object-position: 25% 145%; /*Adjust the initial position of the image content inside Image 2*/
+        height: 207%;
+        margin-top: -32%;
+        
+        /* displaying only lower half of image */
+        clip-path: inset(60% -1% 8px 0%);
+     
     }
+  
+/* Styling for Image 3 */
+#img3 {
+    position: relative;/* Set Image 3 to be positioned relative to its normal position */
+    left: 310px;
+    top: 20px;
+    margin-bottom: 20px;
+}
 
 .sec3 {
     margin: 0 auto; /* shorthand for margin: top right bottom left to center Section 3 horizontally with auto margin*/
