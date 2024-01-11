@@ -1,0 +1,48 @@
+.sec1 {
+    width: 100%;
+    border: 2px solid black;
+    height: 228px;
+    margin-bottom: 39px;
+    overflow: hidden; /* Hide any overflowing content in Section 1 */
+}
+
+
+p {
+    font: 580 1em 'Times New Roman', Times, serif; /* shorthand for font-weight, font-size, and font-family */
+}
+
+
+.pic1 {
+    width: 100%;
+    height: 500px;
+}
+
+.sec2 {
+
+    width: 100%;
+    border: 3px solid black;
+    overflow: hidden; /* Hide any overflowing content in Section 2*/
+    height: 384px;
+    margin-bottom: 39px;
+}
+
+/* Image 2 inside Section 2 */
+.sec2 .pic2 {
+        width: 100%;
+        height: 493px;
+        object-fit: cover; /*Ensure Image 2 covers its container*/
+        object-position: 25% 145%; /*Adjust the initial position of the image content inside Image 2*/
+    }
+
+.sec3 {
+    margin: 0 auto; /* shorthand for margin: top right bottom left to center Section 3 horizontally with auto margin*/
+    width: 500px;
+    height: 300px;
+}
+
+/* Styling for Image Container 3 */
+.img-container3 {
+    display: flex;/* Use of flexbox for the container of Image 3 */
+    justify-content: center;/* Center the content horizontally in Image Container 3 */
+    align-items: center;/* Center the content vertically in Image Container 3 */
+}
