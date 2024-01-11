@@ -1,8 +1,7 @@
 .sec1 {
 
-    margin: 2px auto;
-
-    height: 200px;
+    margin: 2px auto; /* shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+    height: 229px;
     width: 952px;
     border: 2px solid black;
     margin-bottom: 39px;
@@ -11,6 +10,7 @@
 
 
 p {
+    font-size: 21px;
     font: 580 1em 'Times New Roman', Times, serif; /* shorthand for font-weight, font-size, and font-family */
 }
 
@@ -23,10 +23,10 @@ p {
 .sec2 {
  
     border: 3px solid black;
-    height: 245px;
+    height: 260px;
 
     /* Center the container horizontally with top and bottom margin */
-    margin: 20px auto;
+    margin: 20px auto; /* shorthand for margin-top and margin-bottom, centering the container horizontally */
     width: 952px;
     
 }
@@ -36,18 +36,17 @@ p {
          
         width: 100%;
         height: 207%;
-        margin-top: -32%;
+        margin-top: -34.5%;
         
         /* displaying only lower half of image */
-        clip-path: inset(60% -1% 8px 0%);
+        clip-path: inset(60% -1% 0% 0%);
      
     }
   
 /* Styling for Image 3 */
 #img3 {
     position: relative;/* Set Image 3 to be positioned relative to its normal position */
-    left: 310px;
-    top: 20px;
+    left: 285px;
     margin-bottom: 20px;
 }
 
